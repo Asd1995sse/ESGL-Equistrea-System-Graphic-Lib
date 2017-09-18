@@ -1,9 +1,9 @@
 package core;
 
 public class Starter {
-	 static double disk = 1.44; //мб
-	 static double v3disk = 24; //кубмм
-	 static double mdisk = 4; //граммы	 
+	 static double disk = 1.44; //РјР±
+	 static double v3disk = 24; //РєСѓР±РјРј
+	 static double mdisk = 4; //РіСЂР°РјРјС‹	 
 	 public static void main(String []args) {
 		 System.out.println("Equestria System Graphic Lib_v1.0... Init");
 		 calcul();
@@ -15,11 +15,11 @@ public class Starter {
 		 double fz = 60;
 		 double mbfz = fz*1024;
 		 double xernia = mbfz / disk;
-		 System.out.println(xernia + " - Количество дискет");
+		 System.out.println(xernia + " - РљРѕР»РёС‡РµСЃС‚РІРѕ РґРёСЃРєРµС‚");
 		 double v3all = v3disk*xernia;
-		 System.out.println(v3all + " - Объем дискет");
+		 System.out.println(v3all + " - РћР±СЉРµРј РґРёСЃРєРµС‚");
 		 double massa = xernia*mdisk;
-		 System.out.println(massa + " - Вес дискет");
+		 System.out.println(massa + " - Р’РµСЃ РґРёСЃРєРµС‚");
 		return null;		 
 		 
 		
@@ -32,7 +32,7 @@ public class Starter {
 		 return pony();
 	 }
 	 public static Object pony(){
-		 System.out.println("Пони для девочек! азаза!");
+		 System.out.println("РџРѕРЅРё РґР»СЏ РґРµРІРѕС‡РµРє! Р°Р·Р°Р·Р°!");
 		return multivibrator();
 		 
 	 }
